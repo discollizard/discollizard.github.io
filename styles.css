@@ -5,8 +5,21 @@ header{
 
 header h1{
     font-size: 6vw;
-    font-family: Helvetica;
     margin-bottom: 1%;
+}
+
+body{
+    font-family: Helvetica;
+}
+
+/* homepage */
+.home--welcome{
+    font-size: 3vw;
+    text-align: center;
+}
+
+.home--introduction{
+    text-align: center;
 }
 
 #quote{
@@ -22,6 +35,11 @@ header .navbar{
 
 header a{
     color: black;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #E88700;
 }
 
 main{
@@ -31,21 +49,26 @@ main{
 
 
 /* mobile resolution */
-@media(max-width: 768px){
+@media only screen and (max-width: 768px){
     header h1{
-	font-size: 9vw;
+        font-size: 9vw;
     } 
 
     #quote{
-	font-size: 5vw;
+        font-size: 5vw;
     }
 
-    header a{
-	font-size: 4vw;
+    /* homepage */
+    .home--welcome{
+        font-size: 8vw;
+    }
+
+    .navbar a{
+        font-size: 4vw;
     }
     main {
-	margin-left: 5%;
-	margin-right: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 
