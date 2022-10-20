@@ -9,7 +9,12 @@ header h1{
 }
 
 body{
+    background-color: rgb(253 246 227);
     font-family: Helvetica;
+}
+
+.projects--list{
+    font-size: 15px;
 }
 
 /* homepage */
